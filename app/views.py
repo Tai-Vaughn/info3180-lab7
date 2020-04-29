@@ -77,9 +77,7 @@ def upload():
         return jsonify(result)
     
     result ={
-        'errors':[
-            form_errors(myform)
-        ]
+        'errors': form_errors(myform)
     }
 
     return jsonify(result)
